@@ -1,9 +1,13 @@
 ---
 title: "Dates and Times"
+author: "Your Name"
+date: "Due: April 17, 2023"
 output: html_document
+number-sections: true
+number-depth: 2
 ---
 
-```{r setup-r}
+```{r setup-r, include = F}
 library(tidyverse)
 library(lubridate)
 ```
@@ -26,7 +30,7 @@ Answer the following using code in R and Python (even if you know the answer alr
 5. The following code loads a dataset giving the date ranges for the 12 Zodiac signs.  By making appropriate adjustments and calculations, find your Zodiac sign.
 
 ```{r}
-zodiac <- read.csv("zodiac.csv")
+zodiac <- read.csv("https://raw.githubusercontent.com/unl-stat251/09-datetime/main/zodiac.csv")
 
 # Birthday saved as a datetime object
 
@@ -42,7 +46,7 @@ zodiac <- read.csv("zodiac.csv")
 ```
 
 ```{python}
-zodiac = pd.read_csv("zodiac.csv")
+zodiac = pd.read_csv("https://raw.githubusercontent.com/unl-stat251/09-datetime/main/zodiac.csv")
 
 # Birthday saved as a datetime object
 
@@ -65,7 +69,7 @@ A new murder was committed last year in California, suspected to be the work of 
 
 
 ```{r}
-suspects <- read.csv("suspects.csv")
+suspects <- read.csv("https://raw.githubusercontent.com/unl-stat251/09-datetime/main/suspects.csv")
 ```
 
 Unfortunately, the date and time of the murder is not known.  You have been hired to crack the case.  Use the clues below to discover the murderer's identity.
