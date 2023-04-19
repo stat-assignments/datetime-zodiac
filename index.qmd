@@ -20,10 +20,11 @@ import datetime
 Note: This assignment is modified from the [decodeR exercises by Kelly Bodwin](https://github.com/kbodwin/decodeR/tree/master/lubridate).
 
 ## Warm-up exercises
+(Do this in R AND python)
 
-Answer the following using code in R and Python (even if you know the answer already).
+Answer the following using code (even if you know the answer already).
 
-1. Save your birthday as a Datetime object in R.  
+1. Save your birthday as a Datetime object.  
 2. What day of the week does/did your birthday fall on in 2019?
 3. On what day of the week should you plan your 100th birthday party?
 4. Find the date that is exactly 9 months before your birthday.  If it falls on a holiday, think about the implications.
@@ -62,6 +63,8 @@ zodiac = pd.read_csv("https://raw.githubusercontent.com/unl-stat251/09-datetime/
 ```
 
 ## Solve the mystery
+
+(Do this in R or Python, but you don't have to do it in both)
 
 Speaking of the Zodiac, one of the most famous mysteries in California history is the identity of the so-called "Zodiac Killer", who murdered 7 people in Northern California between 1968 and 1969.
 
