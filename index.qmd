@@ -1,10 +1,9 @@
 ---
 title: "Dates and Times"
+execute:
+  error: true
 author: "Your Name"
-date: "Due: April 17, 2023"
 output: html_document
-number-sections: true
-number-depth: 2
 ---
 
 ```{r setup-r, include = F}
